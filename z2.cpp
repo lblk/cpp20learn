@@ -1,7 +1,5 @@
 #include "typeDump.h"
-template <typename Func, typename...Args>
-using GetFuncRetValTypeByArgs = decltype(Func{}(Args{}...));
-
+#include "returnType.h"
 
 struct aaa{
 	int operator() (int);
