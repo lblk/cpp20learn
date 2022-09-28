@@ -4,7 +4,7 @@
 struct aaa{
 	int operator() (int);
 	double operator() (double);
-}f;
+};
 int main()
 {
 	using T1 = GetFuncRetValTypeByArgs<aaa,int>;
