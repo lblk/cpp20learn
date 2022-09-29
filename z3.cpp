@@ -1,7 +1,17 @@
 #include "typeDump.h"
-#include "returnType.h"
 #include <iostream>
 using namespace std;
+
+
+
+
+
+
+#if 1
+#include "returnType.h"
+#else
+#include "returnTypeV2.h"
+#endif
 
 
 /*
